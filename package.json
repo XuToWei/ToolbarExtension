@@ -1,0 +1,24 @@
+{
+  "name": "me.xw.toolbarextension",
+  "version": "1.0.0",
+  "displayName": "ToolbarExtension",
+  "description": "better ToolbarExtension",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/XuToWei/ToolbarExtension.git"
+  },
+  "unity": "2019.4",
+  "documentationUrl": "https://github.com/XuToWei/ToolbarExtension/blob/master/README.md",
+  "licensesUrl": "https://github.com/XuToWei/ToolbarExtension/blob/master/LICENSE.md",
+  "dependencies": {
+  },
+  "keywords": [
+  ],
+  "author": {
+    "name": "Xu Wei",
+    "email": "",
+    "url": ""
+  },
+  "samples": [
+  ]
+}
