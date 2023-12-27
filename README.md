@@ -4,6 +4,9 @@
 
 ![](Images~/1.png)
 
+### 安装方式：
+- Open Package Manager and Add package from git URL https://github.com/XuToWei/ToolbarExtension.git.
+
 ## 使用说明：
 
 在编辑器函数上添加啊Toolbar特性即可
