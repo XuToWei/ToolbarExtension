@@ -9,7 +9,7 @@
 
 ## 使用说明：
 
-在编辑器函数上添加啊Toolbar特性即可
+在编辑器函数上添加Toolbar特性即可
 
 ```csharp
 [Toolbar(OnGUISide.Left, 0)]
