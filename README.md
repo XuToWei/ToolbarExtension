@@ -15,7 +15,7 @@
 [Toolbar(OnGUISide.Left, 0)]
 static void OnToolbarGUI()
 {
-    if (GUILayout.Button(“Test))
+    if (GUILayout.Button("Test"))
     {
         Debug.Log("Test");
     }
