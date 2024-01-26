@@ -23,17 +23,17 @@ namespace ToolbarExtension
                 if (attributes.Length > 0)
                 {
                     ToolbarAttribute attribute = (ToolbarAttribute)attributes[0];
-                    if (attribute.side == OnGUISide.Left)
+                    if (attribute.Side == OnGUISide.Left)
                     {
-                        s_LeftToolbarGUI.Add((attribute.priority, delegate
+                        s_LeftToolbarGUI.Add((attribute.Priority, delegate
                         {
                             methodInfo.Invoke(null, null);
                         }));
                         continue;
                     }
-                    if (attribute.side == OnGUISide.Right)
+                    if (attribute.Side == OnGUISide.Right)
                     {
-                        s_RightToolbarGUI.Add((attribute.priority, delegate
+                        s_RightToolbarGUI.Add((attribute.Priority, delegate
                         {
                             methodInfo.Invoke(null, null);
                         }));
